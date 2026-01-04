@@ -1,0 +1,48 @@
+# AI Risk Oracle - API Client Libraries and Development Tools
+
+# API Client Libraries
+requests>=2.31.0              # HTTP client for REST APIs
+yfinance>=0.2.18              # Yahoo Finance API client
+python-binance>=1.0.19        # Binance API client
+tweepy>=4.14.0                # Twitter API client
+telethon>=1.29.0              # Telegram API client
+
+# Web Service Framework
+fastapi>=0.103.0              # FastAPI web framework
+uvicorn[standard]>=0.23.0     # ASGI server for FastAPI
+
+# Blockchain Integration
+web3>=6.9.0                   # Ethereum/blockchain interaction
+
+# Testing Frameworks
+hypothesis>=6.82.0            # Property-based testing
+pytest>=7.4.0                # Unit testing framework
+pytest-asyncio>=0.21.0       # Async testing support
+
+# Environment and Configuration
+python-dotenv>=1.0.0          # Environment variable management
+
+# Additional Data APIs
+alpha-vantage>=2.3.1          # Alpha Vantage API client
+pycoingecko>=3.1.0            # CoinGecko API client
+praw>=7.7.1                   # Reddit API client
+
+# Async HTTP Client
+aiohttp>=3.8.5               # Async HTTP client for concurrent API calls
+
+# Data Processing (additional to conda environment)
+python-dateutil>=2.8.2       # Date parsing utilities
+pytz>=2023.3                 # Timezone handling
+
+# Logging and Monitoring
+structlog>=23.1.0             # Structured logging
+prometheus-client>=0.17.1    # Metrics collection
+
+# Development Tools
+black>=23.7.0                 # Code formatting
+flake8>=6.0.0                # Code linting
+mypy>=1.5.0                   # Type checking
+pre-commit>=3.3.0             # Git hooks for code quality
+
+# Visualization
+matplotlib>=3.10.0            # Plotting and visualization library
